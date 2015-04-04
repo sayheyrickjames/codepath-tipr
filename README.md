@@ -16,3 +16,5 @@ Notes:
 - I'd like to add multiple views
 
 Walkthrough of all user stories:
+
+[gif walkthrough](gif/tipr.gif)
