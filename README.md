@@ -17,4 +17,5 @@ Notes:
 
 Walkthrough of all user stories:
 
-[gif walkthrough](gif/tipr.gif)
+
+![gif walkthrough](gif/tipr.gif)
