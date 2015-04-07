@@ -10,7 +10,7 @@ Time spent: 12 hours including design (art work, type and layout sourcing and cr
 Completed user stories:
 
 * [x] Required: Main view tip calculator
-* [x] Optional: Loading view, custom type [Moon](https://www.behance.net/gallery/23468357/Moon-Free-Font) and app icon.
+* [x] Optional: Animations, loading view, custom type [Moon](https://www.behance.net/gallery/23468357/Moon-Free-Font) and app icon.
 
 Notes:
 
