@@ -16,6 +16,6 @@ Notes:
 
 - I'd like to add more view controllers
 
-![tipr](gif/tipr.gif)
+![tipr](gif/tipr-final.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
