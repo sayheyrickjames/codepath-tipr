@@ -1,21 +1,21 @@
 # codepath-tipr
-A tip calculator I made for Codepath's pre-work.
 
-This is a tip calculator I made for my Codepath iOS (Swift) for Designers application.
+Hello,
+This is a Tipr.
 
-Time spent: 12 hours including design (artwork, type and layout sourcing and creation) and development as a beginner. The video walkthrough was the first time I've ever used XCode or attempted to build an iOS app. Exciting stuff! I'm looking forward to learning a lot more!
+I made it for my [CodePath](http://www.codepath.com) course [iOS Bootcamp for designers] (http://codepath.com/iosfordesigners) submission. It was my first time using xcode.
+
+Time spent: 12 hours including design (art work, type and layout sourcing and creation) and development as a beginner. This is my first iOS app and I had a great time making it.
 
 Completed user stories:
 
- Required: User can enter in a bill total and choose a tip amount based on three fixed percentages (18%, 20% 22%).
- Optional: Add custom type, an app icon and a launch image background.
+* [x] Required: Main view tip calculator
+* [x] Optional: Loading view, custom type [Moon](https://www.behance.net/gallery/23468357/Moon-Free-Font) and app icon.
 
 Notes:
 
-- I'd like to add more animation
-- I'd like to add multiple views
+- I'd like to add more view controllers
 
-Walkthrough of all user stories:
+![tipr](gif/tipr.gif)
 
-
-![gif walkthrough](gif/tipr.gif)
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
