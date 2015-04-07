@@ -10,10 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var boilerplateView: UIView!
+    @IBOutlet weak var boilerplate2View: UIView!
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
+    
+    var originalHelloLabelPosition: CGFloat!
     
     
     override func viewDidLoad() {
@@ -22,6 +27,9 @@ class ViewController: UIViewController {
         
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -48,5 +56,15 @@ class ViewController: UIViewController {
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
     }
+    
+    @IBAction func didTapBillField(sender: AnyObject) {
+        UIView.animateWithDuration(0.5, animations: { () -> Void in
+            self.boilerplateView.center.y = -100
+            self.boilerplate2View.center.y = 210
+        })
+    }
+
+    
+ 
 }
 

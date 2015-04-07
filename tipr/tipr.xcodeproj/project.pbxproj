@@ -164,9 +164,11 @@
 				TargetAttributes = {
 					BC6BA05F1ACE49050012AD60 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 42A3776JPH;
 					};
 					BC6BA0741ACE49050012AD60 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 42A3776JPH;
 						TestTargetID = BC6BA05F1ACE49050012AD60;
 					};
 				};
@@ -360,6 +362,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -371,6 +375,7 @@
 				INFOPLIST_FILE = tiprTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipr.app/tipr";
 			};
 			name = Debug;
@@ -379,6 +384,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -386,6 +393,7 @@
 				INFOPLIST_FILE = tiprTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipr.app/tipr";
 			};
 			name = Release;
@@ -409,6 +417,7 @@
 				BC6BA0811ACE49050012AD60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC6BA0821ACE49050012AD60 /* Build configuration list for PBXNativeTarget "tiprTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				BC6BA0841ACE49050012AD60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
